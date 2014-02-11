@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>INT222 - Assignment #2 - video.html</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/mycss.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="../">Zenit Account</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a class="current" href="video.html">Video</a></li>
+      <li><a href="audio.html">Audio</a></li>
+      <li><a href="html5.html">HTML5</a></li>
+      <li><a href="forms.html">Forms</a></li>
+      <li><a href="other.html">Other</a></li>
+      <li><a href="css">CSS Used</a></li>
+    </ul>
+  </nav>
+  <h1>Video</h1>
+  <div class="content">
+    <section>
+      <h2>Festo AirJelly</h2>
+      <article>
+        <video controls="controls" preload="auto">
+          <source src="misc/AirJelly.mp4" type="video/mp4" />
+          <source src="misc/AirJelly.webm" type="video/webm" />
+          <source src="misc/AirJelly.ogv" type="video/ogg" />
+          Your browser does not support the video tag.
+        </video>
+        <p>
+        The Festo AirJelly is a remote radio-controlled airborne robotic jellyfish. It contains 1.3 cubic meters of helium and has a central electric drive unit powering 8 shafts allowing its movements through a pendulum effect to replicate that of a real jellyfish, but above water. The AirJelly is 1.35 meters wide, 2.20 meters tall, and weighs 1.3 kilograms. Festo has demonstrated what opportunities may be possible in the near future with lighter-than-air flight.
+        </p>
+      </article>
+    </section>
+    <aside>
+      <h2>Video Control Options</h2>
+      <ul>
+        <li><input type="button" value="Play" /></li>
+        <li><input type="button" value="Pause" /></li>
+        <li><input type="button" value="Restart" /></li>
+        <li><input type="button" value="Show Controls" /></li>
+        <li><input type="button" value="Remove Controls" /></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <section>
+      <script type="text/javascript">
+        //<![CDATA[
+          var dt=new Date(document.lastModified); // Get document last modified date
+          document.write('<p>This page was last updated on '+dt.toLocaleString()) + '</p>';
+        //]]>
+      </script>
+    </section>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>INT222 - Assignment #2 - html5.html</title>
+  <link rel="stylesheet" type="text/css" href="css/reset.css" />
+  <link rel="stylesheet" type="text/css" href="css/mycss.css" />
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li><a href="../">Zenit Account</a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Photo Gallery</a></li>
+      <li><a href="video.html">Video</a></li>
+      <li><a href="audio.html">Audio</a></li>
+      <li><a class="current" href="html5.html">HTML5</a></li>
+      <li><a href="forms.html">Forms</a></li>
+      <li><a href="other.html">Other</a></li>
+      <li><a href="css">CSS Used</a></li>
+    </ul>
+  </nav>
+  <h1>HTML5 New features</h1>
+  <div class="content">
+    <section>
+      <form method="post" name="html5" action="index.html">
+      <h2>How to focus on an entry</h2>
+      <article>
+        <p>
+        <input name="entry01" id="entry01" autofocus="autofocus" /> <mark>autofocus</mark><br />
+        &lt;input type="text" name="entry01" id="entry01" autofocus="autofocus" /&gt; autofocus
+        </p>
+      </article>
+      <hr />
+      <h2>How to set a placeholder</h2>
+      <article>
+        <p>
+        <input name="entry02" id="entry02" placeholder="placeholder" /> <mark>placeholder</mark><br />
+        &lt;input type="text" name="entry02" id="entry02" placeholder="placeholder" /&gt; placeholder
+        </p>
+      </article>
+      <hr />
+      <h2>How to set required for an entry</h2>
+      <article>
+        <p>
+        <input name="entry03" id="entry03" required /> <mark>required</mark>
+        <input type="submit" value="Test" /><br />
+        &lt;input type="text" name="entry03" id="entry03" required /&gt; required
+        </p>
+      </article>
+      <hr />
+      <h2>How to create a list/datalist</h2>
+      <article>
+        <p>
+        <input list="list" name="entry04" id="entry04" /> <mark>list</mark><br />
+        <datalist id="list">
+          <option value="option01" />
+          <option value="option02" />
+          <option value="option03" />
+          <option value="option04" />
+          <option value="option05" />
+        </datalist>
+        &lt;input list="list" name="entry04" id="entry04" /&gt; list<br />
+        &lt;datalist id="list"&gt;<br />
+        &nbsp;&nbsp;&lt;option value="option01" /&gt;<br />
+        &nbsp;&nbsp;&lt;option value="option02" /&gt;<br />
+        &nbsp;&nbsp;&lt;option value="option03" /&gt;<br />
+        &nbsp;&nbsp;&lt;option value="option04" /&gt;<br />
+        &nbsp;&nbsp;&lt;option value="option05" /&gt;<br />
+        &lt;/datalist&gt;
+        </p>
+      </article>
+      <hr />
+      <h2>How to ensure a valid email address format</h2>
+      <article>
+        <p>
+        <input type="email" name="entry05" id="entry05" value="cmarkieta*myseneca.ca"/> <mark>email</mark>
+        <input type="submit" value="Test" /><br />
+        &lt;input type="email" name="entry05" id="entry05" /&gt; email
+        </p>
+      </article>
+      <hr />
+      <h2>How to ensure a valid url format</h2>
+      <article>
+        <p>
+        <input type="url" name="entry06" id="entry06" value="https://"/> <mark>url</mark>
+        <input type="submit" value="Test" /><br />
+        &lt;input type="url" name="entry06" id="entry06" /&gt; url
+        </p>
+      </article>
+      <hr />
+      </form>
+    </section>
+    <aside>
+      <h2>HTML5 New attribute/value</h2>
+      <ul>
+        <li><a href="#entry01">autofocus="autofocus"</a></li>
+        <li><a href="#entry02">placeholder="placeholder"</a></li>
+        <li><a href="#entry03">required</a></li>
+        <li><a href="#entry04">list="list"</a></li>
+        <li><a href="#entry05">type="email"</a></li>
+        <li><a href="#entry06">type="url"</a></li>
+      </ul>
+    </aside>
+  </div>
+  <footer>
+    <section>
+      <script type="text/javascript">
+        //<![CDATA[
+          var dt=new Date(document.lastModified); // Get document last modified date
+          document.write('<p>This page was last updated on '+dt.toLocaleString()) + '</p>';
+        //]]>
+      </script>
+    </section>
+  </footer>
+</body>
+
+</html>
